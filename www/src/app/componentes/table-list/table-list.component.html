@@ -1,0 +1,18 @@
+<p-table [value]="ListaVendas" styleClass="p-datatable-striped">
+    <ng-template pTemplate="header">
+        <tr>
+            <th>Nome do Cliente</th>
+            <th>Nome do Produto</th>
+            <th>Valor Final com Entrega</th>
+            <th>Data de Entrega</th>
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-vendas>
+        <tr>
+            <td>{{vendas.nomeCliente}}</td>
+            <td>{{vendas.nomeProduto}}</td>
+            <td>{{vendas.valorFinalComEntrega}}</td>
+            <td>{{vendas.dataEntrega}}</td>
+        </tr>
+    </ng-template>
+</p-table>

@@ -1,0 +1,19 @@
+<ng-container>
+    <div class="full-width-menu">
+        <app-menubar></app-menubar>
+    </div>
+    <p-panel header="Controle de Vendas">
+        <app-upload-arquivos></app-upload-arquivos>
+        <br>
+        <div class="graficoCenter">
+            <p-panel header="Gráfico de vendas por região">
+                <p-chart type="doughnut" [data]="graficoVendasRegiao" [options]="optionsGraficoVendasProduto"></p-chart>
+            </p-panel>
+            <p-panel header="Gráfico de vendas por produto">
+                <p-chart type="doughnut" [data]="graficoVendasProduto" [options]="optionsGraficoVendasRegiao"></p-chart>
+            </p-panel>
+        </div>
+        <br>
+        <app-list-sales></app-list-sales>
+    </p-panel>
+</ng-container>
