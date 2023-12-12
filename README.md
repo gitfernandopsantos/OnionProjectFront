@@ -1,6 +1,5 @@
-# OnionProjectFront
-Sistema Eletrônico de Controle, Vendas e Logística (FRONT-END)
-
+# Sistema Eletrônico de Controle, Vendas e Logística (FRONT-END)
+# Sistema Eletrônico de Controle, Vendas e Logística (BACK-END) https://github.com/gitfernandopsantos/OnionProject
 Bem-vindo ao Sistema Eletrônico de Controle, Vendas e Logística, um projeto revolucionário desenvolvido para atender às necessidades específicas da nossa empresa líder na indústria de eletrônicos. Diante dos desafios presentes em nossas operações diárias, este sistema foi concebido como um MVP (Minimum Viable Product) para proporcionar controle, eficiência e inovação em nossas atividades.
 
 Missão do Sistema:
